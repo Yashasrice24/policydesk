@@ -1,0 +1,33 @@
+
+# FastAPI backend
+fastapi
+uvicorn[standard]
+
+# Database: PostgreSQL + SQLAlchemy + pgvector
+sqlalchemy
+psycopg[binary]
+pgvector
+alembic
+
+# Environment configuration
+pydantic-settings
+python-dotenv
+
+# Authentication and password security
+PyJWT
+pwdlib[argon2]
+email-validator
+
+# Document upload and PDF processing
+python-multipart
+pypdf
+
+# Embedding generation
+fastembed
+
+# LLM integration
+groq
+
+# Testing
+pytest
+httpx
